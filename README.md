@@ -1,2 +1,2 @@
 # min-imal-discord
-My minimal Discord theme. Requires BetterDiscord to use.
+My minimal Discord theme. Requires BetterDiscord to use. (WIP)
