@@ -1,0 +1,119 @@
+/*
+
+
+#app-mount `applies css to BOTH themes, light & dark.`
+
+
+
+*/
+
+
+
+/* Better Japanese Font */
+
+#app-mount body,
+.channel-textarea-inner textarea {
+  /* using the default discord theme's fonts */
+  /* you can change this to whatever japanese font you prefer */
+  /* The last option is for Japanese fonts */
+  font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', 'Meiryo', 
+  sans-serif;
+}
+
+#app-mount .channel-members .member .member-username,
+#friends .username {
+   /* looks better than meiryo on the member list */
+  /* The last option is for Japanese fonts */
+  font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', 'Kozuka Gothic Pro',
+  sans-serif;
+}
+
+
+
+/* Titlebar colour */
+#app-mount .typeWindows-1za-n7 {
+    background-color: #36393f;
+}
+
+#app-mount .avatar-17mtNa {
+    display: none;
+}
+
+#app-mount .headerCozy-2N9HOL {
+    padding: 10px;
+    margin-left: 80px;
+}
+
+#app-mount .containerCozy-jafyvG {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin: auto 0;
+    margin-left: -70px;
+}
+
+#app-mount .markup-2BOw-j {
+    padding-left: 10px;
+}
+
+
+
+                    /* REMOVING ELEMENTS */
+
+
+
+#app-mount .searchBar-6Kv8R2 {
+/* Removes Friends Search Bar */
+    display:none;
+}
+
+#app-mount .attachButton-1UjEWA,
+#app-mount .attachButtonDivider-3Glu60 {
+/* Removes Attach File button (useless to me) */
+    display: none;
+}
+
+#app-mount .wordmark-2iDDfm {
+/* Removes DISCORD from the titlebar */
+    display:none;
+}
+
+
+#app-mount .divider-2PMBlV {
+/* Pointless divider? */
+    display: none;
+}
+
+#app-mount .buttonContainer-KtQ8wc>*,
+#app-mount .unreadMentionsBar-1VrBNe {
+/* Removes the "new message" notif on the channel menu */
+    display: none;
+}
+
+#app-mount .button-3AYNKb {
+/* Removes the Gift, Gif buttons from text box */
+    display: none;
+}
+
+
+
+                    /* INVISIBLE SCROLLBARS */
+
+
+
+#app-mount .scroller-2FKFPG {
+/* Allows the scrollbars to remain functional */
+    overflow-x: hidden; 
+    overflow-y: scroll; 
+}
+
+#app-mount .scroller-2FKFPG::-webkit-scrollbar {
+/* Main Window scrollbars */
+    width: 0px;
+    background: transparent;
+}
+
+.textArea-2Spzkt::-webkit-scrollbar {
+/* Text Entry scrollbar */
+    width: 0px;
+    background: transparent;
+}
