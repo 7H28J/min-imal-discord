@@ -1,14 +1,7 @@
-/*
-
-
-#app-mount `applies css to BOTH themes, light & dark.`
-
-*/
-
 /* Better Japanese Font */
 
 #app-mount body,
-.channel-textarea-inner textarea {
+#app-mount .channel-textarea-inner textarea {
   /* you can change this to whatever japanese font you prefer */
   /* The last option is for Japanese fonts */
   font-family: 'Source Code Pro', 'Meiryo', sans-serif;
@@ -21,8 +14,12 @@
   font-family: 'Source Code Pro', 'Kozuka Gothic Pro', sans-serif;
 }
 
-/* Better Emote Sizes, do your job discord.  */
+/* Discord Titlebar colour fix */
+#app-mount .titleBar-AC4pGV {
+	background-color: #202225;
+}
 
+/* Better Emote Sizes, do your job discord.  */
 #app-mount .emoji.jumboable {
   /* Changes default Emote height/width without a message attached, change to whatever you prefer*/
   height: 40px;
@@ -30,390 +27,88 @@
 }
 
 /* Changes the emote height/width when used in a message, change to whatever you prefer */
-
 #app-mount .emoji {
   height: 1.9rem;
   width: 1.9rem;
 }
 
-/* Font Fix for the Emotes + easier readability(?) */
+/* Reaction emote fix */
+.reaction-1ELvT8 .emoji {
+    width: 1.3rem !important;
+    height: 1.3rem !important;
+}
 
+/* Font Fix for the Emotes + easier readability */
 #app-mount .markup-2BOw-j {
-  /* can change to whatever font-size you prefer */
+/* can change to whatever font-size you prefer */
   font-size: 17px;
   line-height: 1.3;
 }
 
-/* Dark theme emote menu, do your job discord */
-
-#app-mount .emojiPicker-3m1S-j,
-#app-mount .emojiPicker-3m1S-j .stickyHeader-1SS0JU {
-  background: #2F3136;
-  background-color: #2F3136;
-  border: none;
+/* Username in chats */
+#app-mount .headerCozy-2N9HOL {
+	font-size: 17px;
 }
 
-/* Search bar */
-
-#app-mount .searchBar-2_Yu-C.searchBarLight-1NxoDG {
-  background-color: #2F3136;
+/* Text Entry  */
+#app-mount .textArea-2Spzkt {
+	font-size: 17px;
+  	line-height: 1.3;
 }
 
-/* Searchbar wrapper */
-
-#app-mount .searchBar-2_Yu-C.searchBarLight-1NxoDG .searchBarInner-1_Tg2R {
-  background-color: #4F545C;
+/* better embed descriptions */
+#app-mount .embedDescription-1Cuq9a {
+	font-size: 15px;
 }
 
-/* Search bar input text color */
-
-#app-mount .searchBar-2_Yu-C.searchBarLight-1NxoDG input {
-  color: #f6f6f7;
+#app-mount .embedAuthorName-3mnTWj, #app-mount .embedFieldName-NFrena, #app-mount .embedTitle-3OXDkz {
+	font-size: 16px;
 }
 
-/* Emote hover background colour */
-
-#app-mount .emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA.selected-39BZ4S {
-  background-color: #2c2f33;
+/* Removes Attach file button + Divider */
+#app-mount .attachButton-1UjEWA, #app-mount .attachButtonDivider-3Glu60 {
+	display: none;
 }
 
-/* Emote skin tone dropdown menu */
-
-#app-mount .diversitySelector-tmmMv0 .popout-2nUePc {
-  background-color: #2F3136;
-  border: 1px solid #2A2C30;
+/* random divider */
+#app-mount .children-19S4PO:after {
+	display: none;
 }
 
-/* Removes the bottom bar off the emote menu */
-
-#app-mount .emojiPicker-3m1S-j .categories-1feg4n {
-  display: none;
+/* Removes the 'Send message to @user' placeholder for chat input */
+#app-mount .textArea-2Spzkt::-webkit-input-placeholder {
+	color:transparent;
 }
 
-#app-mount .emojiPicker-3m1S-j .scroller-3vODG7,
-#app-mount .emoji-picker,
-.emojiPicker-3m1S-j {
-  height: 500px;
+/* Removes Search Placeholder */
+#app-mount .search-2oPWTC .DraftEditor-root .public-DraftEditorPlaceholder-root {
+	display: none;
 }
 
-/* Resizes the gif window to fix them properly, discord.. */
-
-#app-mount .content-ySCtCx,
-.noSearchResultsContainer-1dVofo {
-  height: 250px;
+/* KNOWN BUG CAUSES USER LIST TO VANISH */ 
+/* Removes all the # icons */
+/* These do nothing but make discord look stupid */
+#app-mount .icon-1_QxNX {
+	display: none;
 }
 
-/* Chat message divider, pointless */
-
-#app-mount .dividerEnabled-2TTlcf {
-  display: none;
+/* Removes VC options at the bottom left */
+/* Probably comment/delete this line out if you use VC on discord */
+#app-mount .iconButton-3V4WS5 {
+	display:none!important;
 }
 
-#app-mount #magane .stickerWindow {
-  z-index: 2000;
-  width: 600px;
-  min-height: 200px;
-  right: -115px;
-  bottom: 58px;
-  position: absolute;
-  background: #202225;
-  max-height: 600px;
-  overflow: hidden;
-  transition: all .2s ease;
-  border-radius: 10px;
+/* Removes the AKA badge at the top of DMs */
+#app-mount .akaBadge-1M-1Gw {
+	display: none;
 }
 
-#app-mount #magane .stickerWindow .stickers>div.pack {
-  float: left;
-  display: block;
-  /* flex-flow: wrap; */
-  justify-content: center;
-  /* padding: 25px; */
-  padding-left: 10px;
-  padding-top: 25px;
-  padding-right: 10px;
-  /* padding-bottom: 10px; */
+/* Discord Home Button */
+#app-mount .button-OhfaWu {
+	background-color: none;
 }
 
-#app-mount #magane .stickerWindow .stickers>.pack .sticker {
-  width: 110px;
-  height: 110px;
-  float: left;
-  position: relative;
-  left: 10px;
-}
-
-/* Friends online X.. */
-#app-mount .friendsOnline-2JkivW {
-    display: none;
-}
-
-/* Removes the react & ... button */
+/* Emoji Reaction + Submenu */
 #app-mount .buttonContainer-KtQ8wc {
-    display: none;
-}
-
-/* Removes the + button on categories */
-#app-mount .addButtonIcon-3u-3Hu {
-    display: none;
-}
-
-/* Removes the # from channels */
-#app-mount .marginReset-3RfdVe {
-    display: none;
-}
-
-#app-mount .attachButton-1UjEWA {display: none;}
-
-/* Scrollbar */
-#app-mount ::-webkit-scrollbar,
-#app-mount ::-webkit-scrollbar-thumb
-{
-    width: 10px;
-    border: none;
-}
-
-#app-mount ::-webkit-scrollbar-track-piece
-{
-    display: none;
-}
-
-#app-mount ::-webkit-scrollbar-thumb
-{
-    border-radius: 5px;
-    background: #5294E2;
-    background-color: #5294E2;
-    border: none;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-
-        NEW LIGHT THEME
-
-*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.theme-light .chat-3bRxxu {
-  background-color: #2B2E39;
-}
-
-.theme-light .content-yTz4x3,
-.theme-light .noChannel-Z1DQK7 {
-  background-color: #2B2E39;
-}
-
-.theme-light .divider-3gKybi.dividerRed-MKoLlr .dividerContent-2L12VI {
-  color: #f04747;
-  background-color: #2B2E39;
-}
-
-/* Text entry bar */
-
-.theme-light .inner-zqa7da {
-  background-color: #383C4A;
-}
-
-/* Gif, Nitro button */
-
-.theme-light .button-3AYNKb {
-  color: #83858C;
-  opacity: 1;
-}
-
-/* user is typing... */
-
-.theme-light .typing-2GQL18 {
-  background: none;
-  color: lightgrey;
-}
-
-/* Last message on.. */
-
-.theme-light .divider-3gKybi .dividerContent-2L12VI:after,
-.theme-light .divider-3gKybi .dividerContent-2L12VI:before {
-  border-color: #383C4A;
-}
-
-/* Last message on.. divider */
-
-.theme-light .dividerContent-2L12VI {
-  background-color: #2B2E39;
-}
-
-/* Default username color */
-
-.theme-light .username-_4ZSMR {
-  color: #5294E2;
-}
-
-/* Channels & DM list */
-
-.theme-light .channels-Ie2l6A,
-.theme-light .scroller-2wx7Hm {
-  background-color: #2B2E39;
-  width: 200px;
-  /* 240px */
-}
-
-/* DM search bar */
-
-.theme-light .searchBar-2_Yu-C,
-#app-mount .searchBar-2_Yu-C.searchBarLight-1NxoDG {
-  background-color: #383C4A;
-  background: #383C4A;
-}
-
-/* App window topbar */
-
-.appMount-3lHmkl {
-  background-color: #2B2E39;
-}
-
-/* Server list */
-
-.scroller-2TZvBN {
-  background-color: #2B2E39;
-}
-  
-/* Header bar, Channel name, DM header */
-
-.theme-light .headerBar-UHpsPw {
-  background: #2B2E39;
-}
-
-/* border below header */
-
-.theme-light .title-3qD0b- {
-  box-shadow: none;
-  border-bottom: 1px #20222a solid;
-}
-
-/* Channel / DM selected */
-
-.theme-light .channel-2QD9_O.selected-1HYmZZ a {
-  background-color: #5294E2;
-  border-radius: var(--round);
-}
-
-/* Active server colour */
-
-/* Unread messages      */
-
-.theme-light .container-2td-dC.da-container.selected-nT-gM3.da-selected::before,
-.theme-light .container-2td-dC.da-container.unread-2OHH1w.da-unread::before {
-  background: #5294E2;
-}
-
-/* Embed */
-
-.theme-light .embedInner-1-fpTo {
-    background: #383C4A;
-    border: none;
-    color: white;
-}
-
-/* Embed bar colour */
-
-.theme-light .embedPill-1Zntps {
-    background-color: #5294E2!important;
-}
-
-/* Embed Author name */
-
-.theme-light .embedAuthorName-3mnTWj {
-    color: white!important;
-    font-size: 0.875rem;
-    font-weight: 500;
-}
-
-/* Code block */
-
-.theme-light .markup-2BOw-j code, .theme-light .markup-2BOw-j code.inline {
-    background: #383C4A
-}
-
-.theme-light .markup-2BOw-j pre {
-    background: #383C4A;
-    border-color: rgba(82,148,226,.6);
-}
-
-/* Channels Hight */
-.theme-light .contentSelectedText-3wUhMi, .contentSelectedVoice-1WDIBM {
-    background-color: #5294E2;
-}
-
-/* Home Button (top left corner) */
-.theme-light .homeButton-2Cw51C {
-    background-color: #383C4A!important;
-    height: 20px;
-}
-
-.theme-light .container-1ETFDs, .homeButton-2Cw51C {
-    height: 10px;
-}
-
-/* Online Status */
-
-#app-mount .status, #app-mount .status-oxiHuE, #app-mount .image-33JSyf, #app-mount .avatarSmall-3ACRaI, #app-mount .inner-1W0Bkn, #app-mount .wrapper-2F3Zv8, #app-mount .status-2s6iDp, #app-mount .statusProfile-3ynqtt, #app-mount .wrapper-2lTRaf, .da-wrapper {
-    border-radius: var(--round);
-    box-shadow: none;
-    -webkit-box-shadow: none;
-    z-index: 1;
-}
-
-#app-mount .status-2zcSVk {
-    border: none;
-    bottom: -3px!important;
-    height: 36px!important;
-    right: -2.5px!important;
-    width: 36px!important;
-    z-index: -1;
-}
-
-#app-mount .typing-1KJk_j, .da-typing {
-    border: 2px white solid;
-    bottom: -5px!important;
-    height: 36px!important;
-    right: -4.5px!important;
-    width: 36px!important;
-    z-index: -1;
+	display: none;
 }
