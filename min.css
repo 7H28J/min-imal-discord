@@ -62,6 +62,11 @@
 	font-size: 1.063rem
 }
 
+/* Better timestamp colour */
+.theme-dark .timestampCozy-2hLAPV {
+	color: rgba(255,255,255,0.7)
+}
+
 /* Text Entry  */
 #app-mount .textArea-2Spzkt {
 	font-size: 1.063rem;
@@ -235,6 +240,44 @@
       visibility: visible;
     }
 
+    /* Square Avatars, FUCK YOU DISCORD */
+
+    .inner-1W0Bkn {
+    border-radius: 7.5%;
+	}
+
+
+    /* Roundness */
+/*#app-mount [mask*="url"],*/
+#app-mount .mask-3OgeRz,
+#app-mount .partyMembers-2HCFEF,
+#app-mount .partyMember-2q4Jxq,
+#app-mount .maskProfile-1ObLFT,
+#app-mount .mask-3OgeRz {-webkit-mask:none;mask:none}
+
+#app-mount .wrapper-25eVIn,
+#app-mount .wrapper-1Rf91z .svg-1X37T1,
+#app-mount .tabBadge-3smxHS, 
+#app-mount .wrapper-232cHJ, 
+#app-mount .avatarDefault-35WC3R, 
+#app-mount .avatarSpeaking-1wJCNq,
+#app-mount .avatarUploaderInner-3UNxY3, 
+#app-mount .circleIconButton-jET_ig, 
+#app-mount .guildsError-b7zR5H, 
+#app-mount .image-33JSyf,
+#app-mount .base-PmTxvP, 
+#app-mount .wrapper-2F3Zv8,
+#app-mount .image-33JSyf,
+#app-mount .avatarSmall-3ACRaI,
+#app-mount .inner-1W0Bkn,
+#app-mount .partyMembers-2HCFEF,
+#app-mount .partyMemberOverflow-1tfvpb,
+#app-mount .maskProfile-1ObLFT,
+#app-mount .mask-3OgeRz {
+    border-radius: 7.5%;
+}
+
+
 
 /* Transparent Scrollbars */
 .bda-dark .emoji-picker .scroller::-webkit-scrollbar,
@@ -294,4 +337,4 @@
     overflow: hidden;
     border-radius: 3px;
     padding-right: 8px;
-}/*
+}*/
