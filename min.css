@@ -149,11 +149,39 @@
 }
 
 /* Discord chat message divider */
-.containerCozy-jafyvG .divider-32i8lo {
+#app-mount .containerCozy-jafyvG .divider-32i8lo {
     display:none;
 }
 
+/* Discord Profile protip footer */
+#app-mount .protip-YaFfgO, #app-mount .footer-1fjuF6 {
+	display: none;
+}
 
+/* Discord Profile Background */
+#app-mount .headerNormal-T_seeN {
+    background-color: #7289DA;
+}
+
+/* Discord Profile Body (small) */
+#app-mount .body-3iLsc4 {
+    padding: 12px 10px 0px;
+}
+
+/* Discord Profile Notes */
+#app-mount .note-3kmerW textarea {
+    height: 25px !important;
+}
+
+/* Discord Profile Body */
+#app-mount .body-3ND3kc {
+    height: 310px;
+}
+
+/* Discord Profile random border above accounts */
+#app-mount .userInfoSection-2acyCx+.userInfoSection-2acyCx {
+	border-top: none;
+}
 
 
 
