@@ -1,3 +1,15 @@
+/*
+  Rem Pixels
+
+  15px = 0.9375rem
+  16px = 1rem
+  17px = 1.063rem (base)
+  32px = 2rem
+  40px = 2.5rem
+  26px = 1.6
+*/
+
+
 /* Configuration */
 
 /* Choose your own font size */
@@ -7,10 +19,10 @@
   --min-font-size: 1.063rem; 
 }
 
-/* Change to none to block to enable VC */
+/* Change to NONE to BLOCK to enable VC */
 
 :root {
-	--display-vc-options: none;
+  --display-vc-options: none;
 }
 
 /* Better Japanese Font */
@@ -334,9 +346,12 @@ I can't decide on a style/placement for this thing */
 }
 
 /* Member List */
+
 #app-mount .username-1cB_5E {
   font-size: var(--min-font-size);
 }
+
+
 
 
 /*
@@ -348,10 +363,28 @@ I can't decide on a style/placement for this thing */
 
 
 
-/* White Icons */
 
-.topSectionNormal-2-vo2m .profileBadgeHypeSquadOnlineHouse1-xN6tES {
-  background-image: none;
+/* Bigger Emote Menu */
+/* slightly broken */
+#app-mount .emojiPicker-3m1S-j .scroller-3vODG7 {
+	height: 320px;
+}
+
+#app-mount .emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    line-height: 40px;
+    text-align: center;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 2px 0 2px 4px;
+    cursor: default;
+}
+
+#app-mount .emojiPicker-3m1S-j .scroller-3vODG7 .row-3j9Kuo {
+	height: 40px;
 }
 
 
