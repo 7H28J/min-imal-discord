@@ -1,13 +1,17 @@
-/*
-  Rem Pixels
+/* Configuration */
 
-  15px = 0.9375rem
-  16px = 1rem
-  17px = 1.063rem (base)
-  32px = 2rem
-  40px = 2.5rem
-  26px = 1.6
-*/
+/* Choose your own font size */
+/* Don't go below 15 */
+
+:root {
+  --min-font-size: 1.063rem; 
+}
+
+/* Change to none to block to enable VC */
+
+:root {
+	--display-vc-options: none;
+}
 
 /* Better Japanese Font */
 
@@ -132,7 +136,7 @@
 /* Probably comment/delete this line out if you use VC on discord */
 
 #app-mount .iconButton-3V4WS5 {
-  display: none !important;
+  display: var(--display-vc-options)
 }
 
 /* Removes the AKA badge at the top of DMs */
@@ -315,6 +319,7 @@ I can't decide on a style/placement for this thing */
 }
 
 /* Category Collapse > */
+
 #app-mount .icon-WnO6o2 {
   width: 14px;
   height: 14px;
@@ -322,6 +327,16 @@ I can't decide on a style/placement for this thing */
   display: none; /* Remove this is fo you want the > */
 }
 
+/* Dicord Friendslist Names + Friends Button */
+
+#app-mount .name-2WpE7M {
+  font-size: var(--min-font-size);
+}
+
+/* Member List */
+#app-mount .username-1cB_5E {
+  font-size: var(--min-font-size);
+}
 
 
 /*
