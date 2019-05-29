@@ -1,3 +1,18 @@
+/* Configuration */
+
+/* Choose your own font size */
+/* Don't go below 15 */
+
+:root {
+  --min-font-size: 1.063rem; 
+}
+
+/* Change to NONE to BLOCK to enable VC */
+
+:root {
+  --display-vc-options: none;
+}
+
 /* Better Japanese Font */
 
 #app-mount body,
@@ -295,7 +310,7 @@ I can't decide on a style/placement for this thing */
 /* Flat "User is Typing" Status Bar Dots . . . */
 
 #app-mount .pulsingEllipsisItem-32hhWL, #app-mount .pulsingEllipsisItem, #app-mount .typingSpinnerItem-35chrT, #app-mount .typingSpinnerItem {
-	display: none;
+  display: none;
 }
 
 /* Last message divider date */
@@ -343,18 +358,6 @@ I can't decide on a style/placement for this thing */
   font-size: var(--min-font-size);
 }
 
-/* Account Details Username (bottom left) */
-
-#app-mount .accountDetails-3k9g4n .username {
-  font-size: var(--min-font-size);
-}
-
-/* Account Details Discriminator (bottom left) */
-
-.accountDetails-3k9g4n .discriminator {
-  font-size: 12px;
-}
-
 
 
 
@@ -371,7 +374,7 @@ I can't decide on a style/placement for this thing */
 /* Bigger Emote Menu */
 /* slightly broken */
 #app-mount .emojiPicker-3m1S-j .scroller-3vODG7 {
-	height: 320px;
+  height: 320px;
 }
 
 #app-mount .emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA {
@@ -388,7 +391,19 @@ I can't decide on a style/placement for this thing */
 }
 
 #app-mount .emojiPicker-3m1S-j .scroller-3vODG7 .row-3j9Kuo {
-	height: 40px;
+  height: 40px;
+}
+
+/* Account Details Username (bottom left) */
+
+#app-mount .accountDetails-3k9g4n .username {
+  font-size: var(--min-font-size);
+}
+
+/* Account Details Discriminator (bottom left) */
+
+.accountDetails-3k9g4n .discriminator {
+  font-size: 12px;
 }
 
 
