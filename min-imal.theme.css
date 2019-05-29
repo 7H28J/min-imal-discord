@@ -1,0 +1,15 @@
+//META{"name":"Min-imal Discord","description":"Min-imal Discord, a better looking Discord Interface","author":"min#0001","version":"1.0"}*//{}
+@import url(https://7h28j.github.io/min-imal-discord/min.css);
+
+/* Configuration */
+
+/* Choose your own font size */
+/* Don't go below 15 */
+:root {
+  --min-font-size: 1.063rem; 
+}
+
+/* Change to NONE to BLOCK to enable VC */
+:root {
+  --display-vc-options: none;
+}
