@@ -211,6 +211,18 @@
   display: none;
 }
 
+/* Discord Profile Send Message Button" */
+
+#app-mount .lookFilled-1Gx00P.colorGreen-29iAKY {
+    color: #7289DA;
+    background-color: white;
+}
+
+#app-mount .lookFilled-1Gx00P.colorGreen-29iAKY:hover {
+    color: #7289DA;
+    background-color: hsla(0,0%,100%,.6);
+}
+
 /* Discord Profile Notes */
 
 #app-mount .note-3kmerW textarea {
@@ -237,8 +249,8 @@
 
 /* Discord Profile Mobile Icon */
 
-#app-mount .mobileIndicatorPrimary-2viufb {
-  color: #ffffff;
+#app-mount .mobileIndicatorPrimary-2viufb, #app-mount .mobileIndicator-32N6Qx {
+  color: hsla(0,0%,100%,.6);
 }
 
 /* Discord Profile Status */
@@ -257,13 +269,26 @@ I can't decide on a style/placement for this thing */
 
 /* Flat Status Bar */
 
-#app-mount .avatarSmall-3ACRaI .status-2zcSVk, #app-mount .statusStatic-3QpK4G, #app-mount .status-2s6iDp  {
+#app-mount .avatarSmall-3ACRaI .status-2zcSVk, #app-mount .statusStatic-3QpK4G, #app-mount .status-2s6iDp {
     width: 30px;
     height: 3px;
     right: -3px;
-    bottom: -3px;
+    bottom: -5px;
     border-radius: 7.5%;
   }
+
+/* Flat Status Bar */
+/* Discord Profile Mutual Friends Status */
+/* Could probably use some fixing, this ID doesn't feel right */
+
+#app-mount .online-2S838R.status-oxiHuE.da-online.da-status.large-3ChYtB.da-large, #app-mount .offline-3qoTek.status-oxiHuE.da-offline.da-status.large-3ChYtB.da-large {
+    width: 40px;
+    height: 3px;
+    border-radius: 7.5%;
+    position: absolute;
+    bottom: -5px;
+    right: 0;
+}
 
 /* Last message divider date */
 
@@ -277,8 +302,25 @@ I can't decide on a style/placement for this thing */
   display: none;
 }
 
+/* Channel Name */
 
+#app-mount .name-3_Dsmg {
+  font-size: 17px;
+}
 
+/* Category Name */
+
+#app-mount .name-IbjUBS {
+    font-size: 13px;
+}
+
+/* Category Collapse > */
+#app-mount .icon-WnO6o2 {
+  width: 14px;
+  height: 14px;
+  top: 4px;
+  display: none; /* Remove this is fo you want the > */
+}
 
 
 
@@ -291,7 +333,11 @@ I can't decide on a style/placement for this thing */
 
 
 
+/* White Icons */
 
+.topSectionNormal-2-vo2m .profileBadgeHypeSquadOnlineHouse1-xN6tES {
+  background-image: none;
+}
 
 
 
