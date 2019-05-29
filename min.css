@@ -1,14 +1,13 @@
 /*
-	Rem Pixels
+  Rem Pixels
 
-	15px = 0.9375rem
-	16px = 1rem
-	17px = 1.063rem (base)
-	32px = 2rem
-	40px = 2.5rem
-	26px = 1.6
+  15px = 0.9375rem
+  16px = 1rem
+  17px = 1.063rem (base)
+  32px = 2rem
+  40px = 2.5rem
+  26px = 1.6
 */
-
 
 /* Better Japanese Font */
 
@@ -27,11 +26,13 @@
 }
 
 /* Discord Titlebar colour fix */
+
 #app-mount .titleBar-AC4pGV {
-	background-color: #202225;
+  background-color: #202225;
 }
 
 /* Better Emote Sizes, do your job discord.  */
+
 #app-mount .emoji.jumboable {
   /* Changes default Emote height/width without a message attached, change to whatever you prefer*/
   height: 2.5rem;
@@ -39,98 +40,121 @@
 }
 
 /* Changes the emote height/width when used in a message, change to whatever you prefer */
+
 #app-mount .emoji {
   height: 2rem;
   width: 2rem;
 }
 
 /* Reaction emote fix */
+
 .reaction-1ELvT8 .emoji {
-    width: 1.5rem!important;
-    height: 1.5rem !important;
+  width: 1.5rem !important;
+  height: 1.5rem !important;
 }
 
 /* Font Fix for the Emotes + easier readability */
+
 #app-mount .markup-2BOw-j {
-/* can change to whatever font-size you prefer */
+  /* can change to whatever font-size you prefer */
   font-size: 1.063rem;
   line-height: 1.3;
 }
 
 /* Username in chats */
+
 #app-mount .headerCozy-2N9HOL {
-	font-size: 1.063rem
+  font-size: 1.063rem;
 }
 
 /* Better timestamp colour */
+
 .theme-dark .timestampCozy-2hLAPV {
-	color: rgba(255,255,255,0.7)
+  color: rgba(255, 255, 255, 0.7);
 }
 
 /* Text Entry  */
+
 #app-mount .textArea-2Spzkt {
-	font-size: 1.063rem;
-  	line-height: 1.3;
+  font-size: 1.063rem;
+  line-height: 1.3;
 }
 
 /* better embed descriptions */
+
 #app-mount .embedDescription-1Cuq9a {
-	font-size: 0.9375rem;
+  font-size: 0.9375rem;
 }
 
-#app-mount .embedAuthorName-3mnTWj, #app-mount .embedFieldName-NFrena, #app-mount .embedTitle-3OXDkz {
-	font-size: 1rem;
+#app-mount .embedAuthorName-3mnTWj,
+#app-mount .embedFieldName-NFrena,
+#app-mount .embedTitle-3OXDkz {
+  font-size: 1rem;
 }
 
 /* Removes Attach file button + Divider */
-#app-mount .attachButton-1UjEWA, #app-mount .attachButtonDivider-3Glu60 {
-	display: none;
+
+#app-mount .attachButton-1UjEWA,
+#app-mount .attachButtonDivider-3Glu60 {
+  display: none;
 }
 
 /* random divider */
+
 #app-mount .children-19S4PO:after {
-	display: none;
+  display: none;
 }
 
 /* Removes the 'Send message to @user' placeholder for chat input */
+
 #app-mount .textArea-2Spzkt::-webkit-input-placeholder {
-	color:transparent;
+  color: transparent;
 }
 
 /* Removes Search Placeholder */
+
 #app-mount .search-2oPWTC .DraftEditor-root .public-DraftEditorPlaceholder-root {
-	display: none;
+  display: none;
 }
 
-/* KNOWN BUG CAUSES USER LIST TO VANISH */ 
+/* KNOWN BUG CAUSES USER LIST TO VANISH */
+
 /* Removes all the # icons */
+
 /* These do nothing but make discord look stupid */
+
 #app-mount .icon-1_QxNX {
-	display: none;
+  display: none;
 }
 
 /* Removes VC options at the bottom left */
+
 /* Probably comment/delete this line out if you use VC on discord */
+
 #app-mount .iconButton-3V4WS5 {
-	display:none!important;
+  display: none !important;
 }
 
 /* Removes the AKA badge at the top of DMs */
+
 #app-mount .akaBadge-1M-1Gw {
-	display: none;
+  display: none;
 }
 
 /* Discord Home Button */
+
 #app-mount .button-OhfaWu {
-	background-color: none;
+  background-color: none;
 }
 
 /* Emoji Reaction + Submenu */
+
 #app-mount .buttonContainer-KtQ8wc {
-	display: none;
+  display: none;
 }
 
 /* Dark theme emote menu, do your job discord */
+
 .theme-dark .emojiPicker-3m1S-j,
 .theme-dark .emojiPicker-3m1S-j .stickyHeader-1SS0JU {
   background: #2F3136;
@@ -139,55 +163,129 @@
 }
 
 /* Emoticon hover background */
+
 #app-mount .emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA.selected-39BZ4S {
   background-color: transparent;
 }
 
 /* emote menu search bar  inner */
+
 .theme-dark .inner-3ErfOT {
-	background: #202225;
+  background: #202225;
 }
 
 /* Discord chat message divider */
+
 #app-mount .containerCozy-jafyvG .divider-32i8lo {
-    display:none;
+  display: none;
 }
 
-/* Discord Profile protip footer */
-#app-mount .protip-YaFfgO, #app-mount .footer-1fjuF6 {
-	display: none;
+/* Discord Profile protip footer (small) */
+
+#app-mount .protip-YaFfgO,
+#app-mount .footer-1fjuF6 {
+  display: none;
 }
 
-/* Discord Profile Background */
-#app-mount .headerNormal-T_seeN {
+/* Discord Profile Background (large) */
+
+.header-QKLPzZ {
     background-color: #7289DA;
 }
 
+/* Discord Profile Background (small) */
+
+#app-mount .headerNormal-T_seeN {
+  background-color: #7289DA;
+}
+
 /* Discord Profile Body (small) */
+
 #app-mount .body-3iLsc4 {
-    padding: 12px 10px 0px;
+  padding: 12px 10px 0px;
+}
+
+/* Discord Profile "view profile" text on pfp hover (small) */
+
+#app-mount .avatarHintInner-Dco91E {
+  display: none;
 }
 
 /* Discord Profile Notes */
+
 #app-mount .note-3kmerW textarea {
-    height: 25px !important;
+  height: 40px !important;
 }
 
 /* Discord Profile Body */
+
 #app-mount .body-3ND3kc {
-    height: 310px;
+  height: 300px;
+}
+
+/* Discord Profile Connected Accounts */
+
+#app-mount .connectedAccounts-repVzS {
+    margin-top: -50px;
 }
 
 /* Discord Profile random border above accounts */
+
 #app-mount .userInfoSection-2acyCx+.userInfoSection-2acyCx {
-	border-top: none;
+  border-top: none;
 }
+
+/* Discord Profile Mobile Icon */
+
+#app-mount .mobileIndicatorPrimary-2viufb {
+  color: #ffffff;
+}
+
+/* Discord Profile Status */
+/* Might need to remove this
+I can't decide on a style/placement for this thing */
+
+#app-mount .statusProfile-3ynqtt {
+  display: none;
+}
+
+/* Friends List (Video, Voice call & Remove Button) */
+
+#app-mount .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M {
+  display: none;
+}
+
+/* Flat Status Bar */
+
+#app-mount .avatarSmall-3ACRaI .status-2zcSVk, #app-mount .statusStatic-3QpK4G, #app-mount .status-2s6iDp  {
+    width: 30px;
+    height: 3px;
+    right: -3px;
+    bottom: -3px;
+    border-radius: 7.5%;
+  }
+
+/* Last message divider date */
+
+#app-mount .dividerContent-2L12VI {
+    display: none;
+  }
+
+/* Owner Crown */
+
+#app-mount .ownerIcon-uZ6mE7 {
+  display: none;
+}
+
+
+
 
 
 
 /*
 
-		TEST FEATURES
+    TEST FEATURES
+    I will properly add this stuff later
 
 */
 
@@ -195,105 +293,121 @@
 
 
 
+
+
+
 /* Chat Avatars */
-/* big chat avatars */
-    :root {
-      --chatPfpSize: 48px;
-    }
-    .container-1YxwTf .wrapper-2F3Zv8{
-      margin-top: 0;
-      width: var(--chatPfpSize);
-      height: var(--chatPfpSize);
-    }
-    .container-1YxwTf .image-33JSyf{
-      width: 100%;
-      height: 100%;
-      background-position: center;
-      background-size: cover;
-    }
-    .contentCozy-3XX413 {
-      margin-left: calc(40px + var(--chatPfpSize));
-    }
-    .container-1YxwTf {
-      min-height: var(--chatPfpSize);
-      box-sizing: content-box;
-      position: relative;
-    }
-    .containerCozy-jafyvG {
-      margin: 0;
-      padding: 20px 0;
-    }
-    .container-1YxwTf .divider-32i8lo {
-      position: absolute;
-      bottom: 20px;
-      width: 100%;
-    }
-    .container-3-pyIM .icon-2Po-VO, .container-3-pyIM .content-2M3n_H {
-      /* remove this for PFPs smaller than 40px */
-      transform: translate(0, calc(var(--chatPfpSize) / 2 - 20px));
-    }
-    .image-33JSyf, .wrapper-2F3Zv8 {
-      border-radius: 7.5%;
-    }
-    .root-3-B5F3 {
-      max-height: 100px;
-      overflow-x: hidden;
-      overflow-y: scroll;
-    }
-    .root-3-B5F3::-webkit-scrollbar {
-      height: 8px;
-      width: 8px;
-    }
-    .root-3-B5F3::-webkit-scrollbar-thumb {
-      border: 2px solid transparent;
-      border-radius: 4px;
-      cursor: move;
-      background-color: rgba(32,34,37,.6);
-    }
-    .root-3-B5F3::-webkit-scrollbar-track {
-      border-width: initial;
-      background-color: transparent;
-      border: 2px solid transparent;
-    }
-    .root-3-B5F3::-webkit-scrollbar-thumb, 
-    .root-3-B5F3::-webkit-scrollbar-track {
-      background-clip: padding-box;
-      border-radius: 7.5px;
-      border-style: solid;
-      border-width: 3px;
-      visibility: hidden;
-    }
-    .root-3-B5F3:hover::-webkit-scrollbar-thumb, 
-    .root-3-B5F3:hover::-webkit-scrollbar-track {
-      visibility: visible;
-    }
 
-    /* Square Avatars, FUCK YOU DISCORD */
+:root {
+  --chatPfpSize: 48px;
+}
 
-    .inner-1W0Bkn {
-    border-radius: 7.5%;
-	}
+.container-1YxwTf .wrapper-2F3Zv8 {
+  margin-top: 0;
+  width: var(--chatPfpSize);
+  height: var(--chatPfpSize);
+}
 
+.container-1YxwTf .image-33JSyf {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  border: 1px solid #2f3136;
+}
 
-    /* Roundness */
+.contentCozy-3XX413 {
+  margin-left: calc(40px + var(--chatPfpSize));
+}
+
+.container-1YxwTf {
+  min-height: var(--chatPfpSize);
+  box-sizing: content-box;
+}
+
+.containerCozy-jafyvG {
+  margin: 0;
+  padding: 20px 0;
+}
+
+.container-1YxwTf .divider-32i8lo {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+}
+
+.container-3-pyIM .icon-2Po-VO,
+.container-3-pyIM .content-2M3n_H {
+  /* remove this for PFPs smaller than 40px */
+  transform: translate(0, calc(var(--chatPfpSize) / 2 - 20px));
+}
+
+.image-33JSyf,
+.wrapper-2F3Zv8 {
+  border-radius: 7.5%;
+}
+
+.root-3-B5F3 {
+  max-height: 100px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.root-3-B5F3::-webkit-scrollbar {
+  height: 8px;
+  width: 8px;
+}
+
+.root-3-B5F3::-webkit-scrollbar-thumb {
+  border: 2px solid transparent;
+  border-radius: 4px;
+  cursor: move;
+  background-color: rgba(32, 34, 37, .6);
+}
+
+.root-3-B5F3::-webkit-scrollbar-track {
+  border-width: initial;
+  background-color: transparent;
+  border: 2px solid transparent;
+}
+
+.root-3-B5F3::-webkit-scrollbar-thumb,
+.root-3-B5F3::-webkit-scrollbar-track {
+  background-clip: padding-box;
+  border-radius: 7.5px;
+  border-style: solid;
+  border-width: 3px;
+  visibility: hidden;
+}
+
+.root-3-B5F3:hover::-webkit-scrollbar-thumb,
+.root-3-B5F3:hover::-webkit-scrollbar-track {
+  visibility: visible;
+}
+/* Roundness */
+
 /*#app-mount [mask*="url"],*/
+
 #app-mount .mask-3OgeRz,
 #app-mount .partyMembers-2HCFEF,
 #app-mount .partyMember-2q4Jxq,
 #app-mount .maskProfile-1ObLFT,
-#app-mount .mask-3OgeRz {-webkit-mask:none;mask:none}
+#app-mount .mask-3OgeRz {
+  -webkit-mask: none;
+  mask: none
+}
 
 #app-mount .wrapper-25eVIn,
 #app-mount .wrapper-1Rf91z .svg-1X37T1,
-#app-mount .tabBadge-3smxHS, 
-#app-mount .wrapper-232cHJ, 
-#app-mount .avatarDefault-35WC3R, 
+#app-mount .tabBadge-3smxHS,
+#app-mount .wrapper-232cHJ,
+#app-mount .avatarDefault-35WC3R,
 #app-mount .avatarSpeaking-1wJCNq,
-#app-mount .avatarUploaderInner-3UNxY3, 
-#app-mount .circleIconButton-jET_ig, 
-#app-mount .guildsError-b7zR5H, 
+#app-mount .avatarUploaderInner-3UNxY3,
+#app-mount .circleIconButton-jET_ig,
+#app-mount .guildsError-b7zR5H,
 #app-mount .image-33JSyf,
-#app-mount .base-PmTxvP, 
+#app-mount .base-PmTxvP,
 #app-mount .wrapper-2F3Zv8,
 #app-mount .image-33JSyf,
 #app-mount .avatarSmall-3ACRaI,
@@ -302,12 +416,11 @@
 #app-mount .partyMemberOverflow-1tfvpb,
 #app-mount .maskProfile-1ObLFT,
 #app-mount .mask-3OgeRz {
-    border-radius: 7.5%;
+  border-radius: 7.5%;
 }
 
-
-
 /* Transparent Scrollbars */
+
 .bda-dark .emoji-picker .scroller::-webkit-scrollbar,
 .bda-dark .emoji-picker .scroller::-webkit-scrollbar-track,
 .bda-dark .emoji-picker .scroller::-webkit-scrollbar-track-piece,
@@ -323,26 +436,26 @@
 .da-emojiPicker .da-scrollerWrap .da-scroller::-webkit-scrollbar,
 .da-emojiPicker .da-scrollerWrap .da-scroller::-webkit-scrollbar-track,
 .da-emojiPicker .da-scrollerWrap .da-scroller::-webkit-scrollbar-track-piece {
-    background-color: transparent !important;
-    border-color: transparent !important;
+  background-color: transparent !important;
+  border-color: transparent !important;
 }
 
 .da-scroller::-webkit-scrollbar-thumb,
 .da-scrollerWrap::-webkit-scrollbar-thumb,
 .da-emojiPicker .da-scrollerWrap .da-scroller::-webkit-scrollbar-thumb {
-    background-color: #202225 !important;
-    border-color: transparent !important;
+  background-color: #202225 !important;
+  border-color: transparent !important;
 }
 
 .da-scroller::-webkit-scrollbar-track,
 .da-scrollerWrap::-webkit-scrollbar-track {
-    background-color: transparent !important;
+  background-color: transparent !important;
 }
 
 .da-scroller::-webkit-scrollbar-track-piece,
 .da-scrollerWrap::-webkit-scrollbar-track-piece {
-    background-color: transparent !important;
-    border-color: transparent !important;
+  background-color: transparent !important;
+  border-color: transparent !important;
 }
 
 /*
