@@ -1,18 +1,3 @@
-/* Configuration */
-
-/* Choose your own font size */
-/* Don't go below 15 */
-
-:root {
-  --min-font-size: 1.063rem; 
-}
-
-/* Change to NONE to BLOCK to enable VC */
-
-:root {
-  --display-vc-options: none;
-}
-
 /* Better Japanese Font */
 
 #app-mount body,
@@ -238,48 +223,6 @@ I can't decide on a style/placement for this thing */
 /* Friends List (Video, Voice call & Remove Button) */
 
 #app-mount .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M {
-  display: none;
-}
-
-/* Flat Status Bar */
-
-#app-mount .avatarSmall-3ACRaI .status-2zcSVk, #app-mount .statusStatic-3QpK4G, #app-mount .status-2s6iDp {
-    width: 30px;
-    height: 3px;
-    right: -3px;
-    bottom: -5px;
-    border-radius: 7.5%;
-  }
-
-/* Flat Status Bar */
-/* Discord Profile Mutual Friends Status */
-/* Could probably use some fixing, this ID doesn't feel right */
-
-/* DOES NOT WORK */
-
-#app-mount .online-2S838R.status-oxiHuE.da-online.da-status.large-3ChYtB.da-large, #app-mount .offline-3qoTek.status-oxiHuE.da-offline.da-status.large-3ChYtB.da-large {
-    width: 40px;
-    height: 3px;
-    border-radius: 7.5%;
-    position: absolute;
-    bottom: -5px;
-    right: 0;
-}
-
-/* Flat "User is Typing" Status Bar */
-
-#app-mount .typing-1KJk_j {
-    width: 30px !important;
-    height: 3px !important;
-    right: -3px !important;
-    bottom: -5px !important;
-    border-radius: 7.5% !important;
-    background-color: white;
-}
-
-/* Flat "User is Typing" Status Bar Dots . . . */
-
-#app-mount .pulsingEllipsisItem-32hhWL, #app-mount .pulsingEllipsisItem, #app-mount .typingSpinnerItem-35chrT, #app-mount .typingSpinnerItem {
   display: none;
 }
 
