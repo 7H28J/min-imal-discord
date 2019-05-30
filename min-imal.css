@@ -84,13 +84,13 @@
 
 #app-mount .attachButton-1UjEWA,
 #app-mount .attachButtonDivider-3Glu60 {
-  display: var(--HideAll);
+  display: none;
 }
 
 /* random divider */
 
 #app-mount .children-19S4PO:after {
-  display: var(--HideAll);
+  display: none;
 }
 
 /* Removes the 'Send message to @user' placeholder for chat input */
@@ -102,7 +102,7 @@
 /* Removes Search Placeholder */
 
 #app-mount .search-2oPWTC .DraftEditor-root .public-DraftEditorPlaceholder-root {
-  display: var(--HideAll);
+  display: none;
 }
 
 /* KNOWN BUG CAUSES USER LIST TO VANISH */
@@ -112,7 +112,7 @@
 /* These do nothing but make discord look stupid */
 
 #app-mount .icon-1_QxNX {
-  display: var(--HideAll);
+  display: none;
 }
 
 /* Removes VC options at the bottom left */
@@ -126,7 +126,7 @@
 /* Removes the AKA badge at the top of DMs */
 
 #app-mount .akaBadge-1M-1Gw {
-  display: var(--HideAll);
+  display: none;
 }
 
 /* Discord Home Button */
@@ -138,7 +138,7 @@
 /* Emoji Reaction + Submenu */
 
 #app-mount .buttonContainer-KtQ8wc {
-  display: var(--HideAll);
+  display: none;
 }
 
 /* Dark theme emote menu, do your job discord */
@@ -165,14 +165,14 @@
 /* Discord chat message divider */
 
 #app-mount .containerCozy-jafyvG .divider-32i8lo {
-  display: var(--HideAll);
+  display: none;
 }
 
 /* Discord Profile protip footer (small) */
 
 #app-mount .protip-YaFfgO,
 #app-mount .footer-1fjuF6 {
-  display: var(--HideAll);
+  display: none;
 }
 
 /* Discord Profile Background (large) */
@@ -196,7 +196,7 @@
 /* Discord Profile "view profile" text on pfp hover (small) */
 
 #app-mount .avatarHintInner-Dco91E {
-  display: var(--HideAll);
+  display: none;
 }
 
 /* Discord Profile Send Message Button" */
@@ -246,13 +246,13 @@
 I can't decide on a style/placement for this thing */
 
 #app-mount .statusProfile-3ynqtt {
-  display: var(--HideAll);
+  display: none;
 }
 
 /* Friends List (Video, Voice call & Remove Button) */
 
 #app-mount .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M {
-  display: var(--HideAll);
+  display: none;
 }
 
 /* Flat Status Bar */
@@ -294,19 +294,19 @@ I can't decide on a style/placement for this thing */
 /* Flat "User is Typing" Status Bar Dots . . . */
 
 #app-mount .pulsingEllipsisItem-32hhWL, #app-mount .pulsingEllipsisItem, #app-mount .typingSpinnerItem-35chrT, #app-mount .typingSpinnerItem {
-  display: var(--HideAll);
+  display: none;
 }
 
 /* Last message divider date */
 
 #app-mount .dividerContent-2L12VI {
-    display: var(--HideAll);
+    display: none;
   }
 
 /* Owner Crown */
 
 #app-mount .ownerIcon-uZ6mE7 {
-  display: var(--HideAll);
+  display: none;
 }
 
 /* Channel Name */
@@ -327,7 +327,7 @@ I can't decide on a style/placement for this thing */
   width: 14px;
   height: 14px;
   top: 4px;
-  display: var(--HideAll); /* Remove this is fo you want the > */
+  display: none; /* Remove this is fo you want the > */
 }
 
 /* Dicord Friendslist Names + Friends Button */
@@ -366,7 +366,7 @@ I can't decide on a style/placement for this thing */
 /* Removes Discord Watermark */
 
 #app-mount .wordmark-2iDDfm {
-  display: var(--HideALL);
+  display: none;
 }
 
 /* Discord Titlebar */
