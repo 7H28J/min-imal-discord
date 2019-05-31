@@ -51,8 +51,9 @@
 
 /* Username in Chats */
 
-#app-mount .headerCozy-2N9HOL {
+#app-mount .username-_4ZSMRL {
   font-size: 1.063rem;
+  color: var(--username-color);
 }
 
 /* Links in Chats */
