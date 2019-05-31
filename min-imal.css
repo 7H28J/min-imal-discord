@@ -435,29 +435,29 @@ I can't decide on a style/placement for this thing */
 /* Guilds Server Error */
 
 #app-mount .guildsError-b7zR5H {
-    background: #292b2f !important;
-    color: #f04747 !important;
-    border: none !important;
+    background: #292b2f;
+    color: #f04747;
+    border: none;
 }
 
 /* Guilds Server Error Hover */
 
 #app-mount .guildsError-b7zR5H:hover {
-    background: #f04747 !important;
-    color: #fff !important;
-    border: none !important;
+    background: #f04747;
+    color: #fff;
+    border: none;
 }
 
 /* Guids Divider */
 
 #app-mount .guildSeparator-3s64Iy {
-  display: none !important;
+  display: none;
 }
 
 /* Guilds Unread Messages Notification */
 
 #app-mount .unreadMentionsIndicatorBottom-BXS58x {
-  display: none !important;
+  display: none;
 }
 
 
