@@ -13,4 +13,7 @@
 
 /* Change to NONE to BLOCK to enable VC */
   --display-vc-options: none;
+
+/* Change NONE to BLOCK to enable Nitro & Gif buttons */
+--no-nitro-gif: none;
 }

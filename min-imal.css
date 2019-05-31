@@ -57,6 +57,13 @@
   font-size: 1.063rem;
 }
 
+/* Gif Embeds in Chat */
+
+.embedVideo-3nf0O9 {
+    border: solid 5px #2F3136;
+    border-bottom: solid 10px #2F3136;
+}
+
 /* Better timestamp colour */
 
 .theme-dark .timestampCozy-2hLAPV {
@@ -68,6 +75,12 @@
 #app-mount .textArea-2Spzkt {
   font-size: 1.063rem;
   line-height: 1.3;
+}
+
+/* Nitro & Gif Button */
+
+#app-mount .button-3AYNKb {
+  display: var(--no-nitro-gif);
 }
 
 /* better embed descriptions */
@@ -208,6 +221,13 @@
     background-color: white;
 }
 
+/* Discord Profile Send Message Button Inverted */
+
+.lookInverted-2D7oAl.colorGreen-29iAKY {
+    color: #7289DA;
+    background-color: #fff;
+}
+
 #app-mount .lookFilled-1Gx00P.colorGreen-29iAKY:hover {
     color: #7289DA;
     background-color: hsla(0,0%,100%,.6);
@@ -310,6 +330,12 @@ I can't decide on a style/placement for this thing */
   display: none;
 }
 
+/* Channel */
+
+#app-mount .content-3at_AU {
+  cursor: default;
+}
+
 /* Channel Name */
 
 #app-mount .name-3_Dsmg {
@@ -384,6 +410,7 @@ I can't decide on a style/placement for this thing */
     font-size: 14px;
     padding-top: 10px;
     height: 50px!important;
+    cursor: default;
 }
 
 /* Direct Message Avatars  */
@@ -415,6 +442,7 @@ I can't decide on a style/placement for this thing */
 /* Server Member List Avatars */
 
 #app-mount .image-33JSyf.small-5Os1Bb.mask-3OgeRz  {
+  background-color: #2F3136;
   height: 38px;
   width: 38px;
   z-index: 1 !important;
@@ -426,6 +454,21 @@ I can't decide on a style/placement for this thing */
   margin-right: -8px;
   margin-bottom: -8px;
   border-radius: 7.5%;
+}
+
+/* Server Memberlist Avatars */
+
+#app-mount .image-33JSyf.da-image.small-5Os1Bb.da-small {
+    height: 38px;
+    width: 38px;
+}
+
+/* Server Memberlist User Hover */
+
+#app-mount .member-3W1lQa:hover .content-OzHfo4 {
+    background-color: transparent;
+    color: #fff;
+    cursor: default;
 }
 
 /* Server Member List Avatar */
@@ -443,10 +486,21 @@ I can't decide on a style/placement for this thing */
 /* GUILDS LIST */
 /* Guilds Server Error */
 
+#app-mount .acronym-2mOFsV, #app-mount .wrapper-1BJsBx {
+  cursor: default;
+}
+
 #app-mount .guildsError-b7zR5H {
     background: #292b2f;
     color: #f04747;
     border: none;
+    cursor: default;
+}
+
+/* Guilds New & Search */
+
+#app-mount .circleIconButton-jET_ig {
+  cursor: default;
 }
 
 /* Guilds Server Error Hover */
@@ -455,6 +509,7 @@ I can't decide on a style/placement for this thing */
     background: #f04747;
     color: #fff;
     border: none;
+    cursor: default;
 }
 
 /* Guids Divider */
@@ -471,25 +526,27 @@ I can't decide on a style/placement for this thing */
 
 /* USER SETTINGS */
 
+/* Email Address (blur) */
+
+#app-mount .standardSidebarView-3F1I7i .payment-info .description-3_Ncsb, 
+#app-mount .standardSidebarView-3F1I7i .paymentSourceRow-3FbcL_ .subText-V8PTt8, 
+#app-mount .standardSidebarView-3F1I7i .userSettingsAccount-2eMFVR div:nth-child(2) > div:nth-child(2) > .viewBody-2Qz-jg {
+    transition: all 200ms cubic-bezier(.550, .085, .680, .530);
+    filter: blur(8px);
+}
+#app-mount .standardSidebarView-3F1I7i .payment-info .description-3_Ncsb:hover, 
+#app-mount .standardSidebarView-3F1I7i .paymentSourceRow-3FbcL_ .subText-V8PTt8:hover, 
+#app-mount .standardSidebarView-3F1I7i .userSettingsAccount-2eMFVR div:nth-child(2) > div:nth-child(2) > .viewBody-2Qz-jg:hover {
+    transition: all 200ms cubic-bezier(.550, .085, .680, .530);
+    filter: none;
+}
+
 /* Avatar Buttons */
 
 #app-mount .button-38aScr.da-button.lookFilled-1Gx00P.colorGreen-29iAKY.sizeSmall-2cSMqn.grow-q77ONN.da-grow {
     color: #fff;
     background-color: #7289da;
 }
-}
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
