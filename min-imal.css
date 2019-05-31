@@ -454,6 +454,11 @@ I can't decide on a style/placement for this thing */
   display: none;
 }
 
+/* Guilds Unread Messages Notification */
+
+#app-mount .unreadMentionsIndicatorBottom-BXS58x {
+  display: none;
+}
 
 
 
@@ -636,7 +641,8 @@ I can't decide on a style/placement for this thing */
 #app-mount .maskProfile-1ObLFT,
 #app-mount .mask-3OgeRz {
   -webkit-mask: none;
-  mask: none
+  mask: none;
+  border-radius: none;
 }
 
 #app-mount .wrapper-25eVIn,
