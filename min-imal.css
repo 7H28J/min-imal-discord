@@ -275,11 +275,8 @@ I can't decide on a style/placement for this thing */
 /* DOES NOT WORK */
 
 #app-mount .online-2S838R.status-oxiHuE.da-online.da-status.large-3ChYtB.da-large, #app-mount .offline-3qoTek.status-oxiHuE.da-offline.da-status.large-3ChYtB.da-large {
-    width: 40px;
-    height: 40px;
-    border-radius: 7.5%;
-    position: absolute;
-    bottom: -5px;
+    width: 10px;
+    height: 10px;
     right: 0;
 }
 
