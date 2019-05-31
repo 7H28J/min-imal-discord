@@ -289,6 +289,28 @@ I can't decide on a style/placement for this thing */
   display: none;
 }
 
+/* Online Status */
+
+#app-mount .online-2S838R {
+    background-color: var(--online-status);
+}
+
+/* Away Status */
+
+#app-mount .idle-3DEnRT {
+  background-color: var(--away-status);
+}
+
+/* Busy Status */
+
+#app-mount .dnd-1_xrcq {
+  background-color: var(--busy-status);
+}
+
+#app-mount .invisible-1kp8Z0,#app-mount .offline-3qoTek,#app-mount .unknown-Ms2zdV {
+    background-color: var(--offline-status);
+}
+
 /* Flat Status Bar */
 
 #app-mount .avatarSmall-3ACRaI .status-2zcSVk,
