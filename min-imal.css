@@ -57,20 +57,25 @@
 
 /* Links in Chats */
 
-.markup-2BOw-j a {
+#app-mount .markup-2BOw-j a {
   color: #00b0f4 !important;
 }
 
 /* Gif Embeds in Chat */
 
-.embedVideo-3nf0O9 {
+#app-mount .embedVideo-3nf0O9 {
   border: solid 5px #2F3136;
   border-bottom: solid 10px #2F3136;
 }
 
+/* Gif Tag */
+#app-mount.gifTag-31zFY8 {
+  display: none;
+}
+
 /* Better timestamp colour */
 
-.theme-dark .timestampCozy-2hLAPV {
+#app-mount .timestampCozy-2hLAPV {
   color: rgba(255, 255, 255, 0.7);
 }
 
@@ -162,8 +167,8 @@
 
 /* Dark theme emote menu, do your job discord */
 
-.theme-dark .emojiPicker-3m1S-j,
-.theme-dark .emojiPicker-3m1S-j .stickyHeader-1SS0JU {
+#app-mount .emojiPicker-3m1S-j,
+#app-mount .emojiPicker-3m1S-j .stickyHeader-1SS0JU {
   background: #2F3136;
   background-color: #2F3136;
   border: none;
@@ -177,7 +182,7 @@
 
 /* emote menu search bar  inner */
 
-.theme-dark .inner-3ErfOT {
+#app-mount .inner-3ErfOT {
   background: #202225;
 }
 
@@ -196,7 +201,7 @@
 
 /* Discord Profile Background (large) */
 
-.header-QKLPzZ {
+#app-mount .header-QKLPzZ {
   background-color: #7289DA;
 }
 
@@ -227,7 +232,7 @@
 
 /* Discord Profile Send Message Button Inverted */
 
-.lookInverted-2D7oAl.colorGreen-29iAKY {
+#app-mount .lookInverted-2D7oAl.colorGreen-29iAKY {
   color: #7289DA;
   background-color: #fff;
 }
@@ -353,7 +358,15 @@ I can't decide on a style/placement for this thing */
 /* Channel Name */
 
 #app-mount .name-3_Dsmg {
-  font-size: 17px;
+  font-size: var(--min-font-size);
+}
+
+/* Channel Selected */
+
+#app-mount .wrapper-1ucjTd.modeSelected-1zApJ_ {
+    cursor: default;
+    right: 4%;
+    margin-right: -4%;
 }
 
 /* Category Name */
