@@ -51,15 +51,15 @@
 
 /* Username in Chats */
 
-#app-mount .username-_4ZSMRL {
+#app-mount .username-_4ZSMR {
   font-size: 1.063rem;
-  color: var(--username-color);
+  color: var(--username-color) !important;
 }
 
 /* Links in Chats */
 
 #app-mount .markup-2BOw-j a {
-  color: #00b0f4 !important;
+  color: var(--url-color) !important;
 }
 
 /* Gif Embeds in Chat */
