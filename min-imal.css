@@ -435,29 +435,29 @@ I can't decide on a style/placement for this thing */
 /* Guilds Server Error */
 
 #app-mount .guildsError-b7zR5H {
-    background: #292b2f;
-    color: #f04747;
-    border: none;
+    background: #292b2f !important;
+    color: #f04747 !important;
+    border: none !important;
 }
 
 /* Guilds Server Error Hover */
 
 #app-mount .guildsError-b7zR5H:hover {
-    background: #f04747;
-    color: #fff;
-    border: none;
+    background: #f04747 !important;
+    color: #fff !important;
+    border: none !important;
 }
 
 /* Guids Divider */
 
 #app-mount .guildSeparator-3s64Iy {
-  display: none;
+  display: none !important;
 }
 
 /* Guilds Unread Messages Notification */
 
 #app-mount .unreadMentionsIndicatorBottom-BXS58x {
-  display: none;
+  display: none !important;
 }
 
 
@@ -664,7 +664,7 @@ I can't decide on a style/placement for this thing */
 #app-mount .partyMemberOverflow-1tfvpb,
 #app-mount .maskProfile-1ObLFT,
 #app-mount .mask-3OgeRz {
-  border-radius: 7.5%;
+  border-radius: 7.5% !important;
 }
 
 /* Transparent Scrollbars */
