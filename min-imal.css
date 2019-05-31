@@ -389,13 +389,26 @@ I can't decide on a style/placement for this thing */
     height: 50px!important;
 }
 
-/* DM Avatars  */
+/* Direct Message Avatars  */
 
 #app-mount .avatarSmall-3ACRaI,
 #app-mount .inner-1W0Bkn {
     z-index: 1;
     height: 38px;
     width: 38px;
+}
+
+/* Direct Messages Header */
+#app-mount .privateChannels-1nO12o header {
+  font-size: 14px;
+}
+
+/* Direct Messages (Selected, Hover) */
+
+#app-mount .channel-2QD9_O.selected-1HYmZZ a, #app-mount .channel-2QD9_O:hover a {
+    cursor: default;
+    height: 48px;
+    margin-left: 0%;
 }
 
 /* Server Member List */
