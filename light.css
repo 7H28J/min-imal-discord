@@ -1,3 +1,17 @@
+/* Chat Contents */
+
 .theme-light .content-yTz4x3, .theme-light .noChannel-Z1DQK7 {
-	background: #36393F;
+	background: var(--main-background)!important;
+}
+
+/* Text Entry Box */
+
+.theme-light .inner-zqa7da {
+    background-color: var(--sub-background);
+}
+
+/* Header */
+
+.theme-light .container-1r6BKw {
+	background-color: var(--main-background);
 }
