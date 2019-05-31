@@ -51,10 +51,16 @@
   line-height: 1.3;
 }
 
-/* Username in chats */
+/* Username in Chats */
 
 #app-mount .headerCozy-2N9HOL {
   font-size: 1.063rem;
+}
+
+/* Links in Chats */
+
+.markup-2BOw-j a {
+    color: #00b0f4;
 }
 
 /* Gif Embeds in Chat */
