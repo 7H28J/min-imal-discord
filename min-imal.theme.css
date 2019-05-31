@@ -11,9 +11,9 @@
 /* Don't go below 15 */
   --min-font-size: 1.063rem; 
 
-/* Change to NONE to BLOCK to enable VC */
+/* Change to NONE to BLOCK to Enable VC */
   --display-vc-options: none;
 
-/* Change NONE to BLOCK to enable Nitro & Gif buttons */
---no-nitro-gif: none;
+/* Change BLOCK to NONE to Disable Nitro & Gif buttons */
+--no-nitro-gif: block;
 }
