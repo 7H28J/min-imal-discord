@@ -363,8 +363,8 @@ I can't decide on a style/placement for this thing */
 #app-mount .svg-1X37T1, #app-mount .wrapper-25eVIn {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    width: 50px;
-    height: 50px;
+    width: 48px;
+    height: 48px;
 }
 
 /* Removes Discord Watermark */
@@ -429,6 +429,29 @@ I can't decide on a style/placement for this thing */
 
 #app-mount .avatarWrapper-3B0ndJ {
     margin-right: 20px;
+}
+
+/* GUILDS LIST */
+/* Guilds Server Error */
+
+#app-mount .guildsError-b7zR5H {
+    background: #292b2f;
+    color: #f04747;
+    border: none;
+}
+
+/* Guilds Server Error Hover */
+
+#app-mount .guildsError-b7zR5H:hover {
+    background: #f04747;
+    color: #fff;
+    border: none;
+}
+
+/* Guids Divider */
+
+#app-mount .guildSeparator-3s64Iy {
+  display: none;
 }
 
 
@@ -603,10 +626,10 @@ I can't decide on a style/placement for this thing */
 .root-3-B5F3:hover::-webkit-scrollbar-track {
   visibility: visible;
 }
+
 /* Roundness */
 
-/*#app-mount [mask*="url"],*/
-
+#app-mount [mask*="url"],
 #app-mount .mask-3OgeRz,
 #app-mount .partyMembers-2HCFEF,
 #app-mount .partyMember-2q4Jxq,
