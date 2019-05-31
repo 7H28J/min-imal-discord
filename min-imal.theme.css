@@ -11,8 +11,23 @@
 :root {
 
 /* CUSTOM COLOURS */
-  /* Default #ffffff */
+  /* Default Colour #ffffff */
   --username-color: #ffffff;
+
+  /* Default Colour #00b0f4 */
+  --url-color: #00b0f4;
+
+  /* Default Colour #43b581 */
+  --online-status: #43b581;
+
+  /* Default Colour #faa61a */
+  --away-status: #faa61a;
+
+  /* Default Colour #f04747 */
+  --busy-status: #f04747;
+
+  /* Default Colour #747f8d */
+  --offline-status: #747f8d;
 
 
 /* Choose your own font size */
