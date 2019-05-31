@@ -472,7 +472,7 @@ I can't decide on a style/placement for this thing */
 /* Server Memberlist User Hover */
 
 #app-mount .member-3W1lQa:hover .content-OzHfo4 {
-  background-color: transparent;
+  background-color: transparent !important;
   color: #fff;
   cursor: default;
 }
