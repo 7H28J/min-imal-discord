@@ -60,7 +60,7 @@
 /* Links in Chats */
 
 .markup-2BOw-j a {
-    color: #00b0f4;
+    color: #00b0f4 !important;
 }
 
 /* Gif Embeds in Chat */
@@ -465,22 +465,23 @@ I can't decide on a style/placement for this thing */
 /* Server Memberlist Avatars */
 
 #app-mount .image-33JSyf.da-image.small-5Os1Bb.da-small {
-    height: 38px;
-    width: 38px;
+  height: 38px;
+  width: 38px;
 }
 
 /* Server Memberlist User Hover */
 
 #app-mount .member-3W1lQa:hover .content-OzHfo4 {
-    background-color: transparent;
-    color: #fff;
-    cursor: default;
+  background-color: transparent;
+  color: #fff;
+  cursor: default;
 }
 
 /* Server Member List Avatar */
 
 #app-mount .member-3W1lQa {
-    height: 52px;
+  cursor: default;
+  height: 52px;
 }
 
 /* Server Member List Avatar Wrapper */
