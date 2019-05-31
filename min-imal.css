@@ -388,8 +388,7 @@ I can't decide on a style/placement for this thing */
 
 /* Direct Message Avatars  */
 
-#app-mount .avatarSmall-3ACRaI,
-#app-mount .inner-1W0Bkn {
+#app-mount .avatarSmall-3ACRaI {
     z-index: 1;
     height: 38px;
     width: 38px;
@@ -470,7 +469,15 @@ I can't decide on a style/placement for this thing */
   display: none;
 }
 
+/* USER SETTINGS */
 
+/* Avatar Buttons */
+
+#app-mount .button-38aScr.da-button.lookFilled-1Gx00P.colorGreen-29iAKY.sizeSmall-2cSMqn.grow-q77ONN.da-grow {
+    color: #fff;
+    background-color: #7289da;
+}
+}
 
 
 
