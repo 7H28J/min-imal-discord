@@ -49,8 +49,16 @@
   --min-font-size: 1.063rem; 
 
 /* Change to NONE to BLOCK to Enable VC */
-  --display-vc-options: block;
+  --display-vc-options: none;
 
-/* Change BLOCK to NONE to Disable Nitro & Gif buttons */
-  --no-nitro-gif: block;
+/* Buttons on the Text Entry Bar */
+/* Change to NONE to DISABLE */
+/* Change to BLOCK to ENABLE */
+  --gift-nitro-button: none;
+  --gif-button: block;
+
+/* 45DDC0 > lightgreen */
+  --gradient-main: black;
+  --graident-sub: white;
+
 }
