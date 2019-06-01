@@ -49,14 +49,6 @@
   line-height: 1.3;
 }
 
-/* Username in Chats */
-
-#app-mount .username-_4ZSMR {
-  font-size: 1.063rem;
-  color: var(--username-color);
-  font-weight: bold;
-}
-
 /* Links in Chats */
 
 #app-mount .markup-2BOw-j a {

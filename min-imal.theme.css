@@ -1,13 +1,36 @@
-//META{"name":"Min-imal Discord","description":"Min-imal Discord, a better looking Discord Interface","author":"min#0001","version":"1.1","website":"https://github.com/7h28j"}*//
+//META{"name":"Min-imal Discord","description":"Min-imal Discord, a better looking Discord Interface","author":"min#0001","version":"1.3","website":"https://github.com/7h28j"}*//
 
 @import url('https://7h28j.github.io/min-imal-discord/Fonts/SourceCodePro.otf');
 @import url('https://7h28j.github.io/min-imal-discord/min-imal.css');
 @import url('https://7h28j.github.io/min-imal-discord/light.css');
 
+
+
+
 /* This is a Comment Bracket, do not edit these lines */
 
 /* Configuration */
 /* Copy the lines below into "Custom CSS" for faster editing! */
+
+.username-_4ZSMR  {
+  font-size: var(--min-font-size);
+  font-weight: var(--font-weights)!important;
+
+  /* Remove the comment brackets off this if you want a solid colour name */
+  /* You will also need to comment out the 3 below! */
+
+  /* color: var(--username-color); */
+
+  /* Delete the Line below if you just want default usernames */
+  /* Other wise feel free to modify the colours and gradient to whatever you want */
+  /* Default Colours (left, #45DDC0, lightgreen) */
+  /* Bold Font recommended for Gradients, see below */
+
+  background: -webkit-linear-gradient(left, #45DDC0, lightgreen);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 
 :root {
 
@@ -48,6 +71,10 @@
 /* Don't go below 15 */
   --min-font-size: 1.063rem; 
 
+/* Choose the Username Font-Weight */
+/* Pick Normal or Bold */
+  --font-weights: bold;
+
 /* Change to NONE to BLOCK to Enable VC */
   --display-vc-options: none;
 
@@ -56,9 +83,5 @@
 /* Change to BLOCK to ENABLE */
   --gift-nitro-button: none;
   --gif-button: block;
-
-/* 45DDC0 > lightgreen */
-  --gradient-main: black;
-  --graident-sub: white;
 
 }
