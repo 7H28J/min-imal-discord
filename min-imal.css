@@ -355,12 +355,13 @@ I can't decide on a style/placement for this thing */
 /* Flat "User is Typing" Status Bar */
 
 #app-mount .typing-1KJk_j {
-  width: 44px !important;
-  height: 44px !important;
+  width: 40px !important;
+  height: 40px !important;
   right: -5px !important;
   bottom: -5px !important;
   z-index: 1 !important;
   border-radius: 7.5% !important;
+  border: solid 3px lightgrey;
   background-color: rgba(0,0,0,0.4);
 } 
 
@@ -370,8 +371,13 @@ I can't decide on a style/placement for this thing */
 #app-mount .pulsingEllipsisItem,
 #app-mount .typingSpinnerItem-35chrT,
 #app-mount .typingSpinnerItem {
-  background-color: white;
   z-index: 3 !important;
+}
+
+/* Palse Position */
+
+#app-mount .pulsingEllipsis-3YiXRF {
+    left: 10%;
 }
 
 /* Last message divider date */
