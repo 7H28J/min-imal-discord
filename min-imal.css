@@ -361,7 +361,7 @@ I can't decide on a style/placement for this thing */
   bottom: -5px !important;
   z-index: 1 !important;
   border-radius: 7.5% !important;
-  border: solid 3px lightgrey !important;
+  border: solid 3px lightgrey;
   background-color: rgba(0,0,0,0.4);
 } 
 
@@ -377,7 +377,7 @@ I can't decide on a style/placement for this thing */
 /* Palse Position */
 
 #app-mount .pulsingEllipsis-3YiXRF {
-    left: 10% !important;
+    left: 10%;
 }
 
 /* Last message divider date */
