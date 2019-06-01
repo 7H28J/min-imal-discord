@@ -70,8 +70,8 @@
 }
 
 /* Gif Tag */
-#app-mount.gifTag-31zFY8 {
-  display: none;
+#app-mount .gifTag-31zFY8 {
+  display: none !important;
 }
 
 /* Better timestamp colour */
@@ -203,7 +203,7 @@
 /* Discord Profile Background (large) */
 
 #app-mount .header-QKLPzZ {
-  background-color: #7289DA;
+  background-color: rgba(0,0,0,.05)
 }
 
 /* Discord Profile Background (small) */

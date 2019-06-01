@@ -39,7 +39,7 @@
   --sub-background: #2F3136;
 
   /* Default Colour #DCDDDE */
-  --main-font-color: green;
+  --main-font-color: #DCDDDE;
 
   /* Default Colour # */
 
@@ -49,7 +49,7 @@
   --min-font-size: 1.063rem; 
 
 /* Change to NONE to BLOCK to Enable VC */
-  --display-vc-options: none;
+  --display-vc-options: block;
 
 /* Change BLOCK to NONE to Disable Nitro & Gif buttons */
   --no-nitro-gif: block;

@@ -6,8 +6,9 @@
 
 /* Text Entry Box */
 
-.theme-light .inner-zqa7da {
+.theme-light .inner-zqa7da, .theme-light .textArea-2Spzkt {
     background-color: var(--sub-background) !important;
+    color: var(--main-font-color) !important;
 }
 
 /* Header */
