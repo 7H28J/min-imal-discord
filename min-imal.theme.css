@@ -11,8 +11,13 @@
 
 /* Configuration */
 /* Copy the lines below into "Custom CSS" for faster editing! */
+/* Make sure Live Editing is enabled */
 
-.username-_4ZSMR  {
+
+
+
+/* GRADIENT USERNAME */
+#app-mount .username-_4ZSMR  {
   font-size: var(--min-font-size);
   font-weight: var(--font-weights)!important;
 
@@ -31,6 +36,13 @@
   -webkit-text-fill-color: transparent;
 }
 
+/* GRADIENT SELECTED CHANNEL */
+/* Comment this all out if you prefer no Gradient */
+#app-mount .wrapper-1ucjTd.modeSelected-1zApJ_ .name-3_Dsmg {
+  background: -webkit-linear-gradient(left, #45DDC0, lightgreen);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 :root {
 

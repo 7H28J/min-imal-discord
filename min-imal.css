@@ -399,9 +399,12 @@ I can't decide on a style/placement for this thing */
 /* Channel Selected */
 
 #app-mount .wrapper-1ucjTd.modeSelected-1zApJ_ {
-    cursor: default;
-    right: 4%;
-    margin-right: -4%;
+  cursor: default;
+  right: 4%;
+  margin-right: -4%;
+  background: -webkit-linear-gradient(left, #45DDC0, lightgreen);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 /* Category Name */
@@ -645,6 +648,30 @@ I can't decide on a style/placement for this thing */
   display: block;
   min-width: 40px;
   min-height: 40px;
+}
+
+/* Titlebar # icon */
+.theme-dark .icon-22AiRD {
+  color: #36393F;
+}
+
+/* Titlebar name */
+#app-mount .title-29uC1r {
+  margin-left: -38px;
+  z-index: 3;
+  font-size: var(--min-font-size);
+}
+
+/* Titlebar Buttons 1 */
+
+.theme-dark .selected-1GqIat .icon-22AiRD, .theme-dark .selected-1GqIat:hover .icon-22AiRD {
+  color: #B9BBBE!important;
+}
+
+/* Titlebar Buttons 2 */
+
+.theme-dark .clickable-3rdHwn:hover .icon-22AiRD {
+  color: #fff!important;
 }
 
 
