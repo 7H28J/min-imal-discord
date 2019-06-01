@@ -7,11 +7,11 @@
 /* Text Entry Box */
 
 .theme-light .inner-zqa7da {
-    background-color: var(--sub-background);
+    background-color: var(--sub-background)!important;
 }
 
 /* Header */
 
 .theme-light .container-1r6BKw {
-	background-color: var(--main-background);
+	background-color: var(--main-background)!important;
 }
