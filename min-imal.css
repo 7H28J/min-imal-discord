@@ -20,10 +20,18 @@
   background-color: #202225;
 }
 
-/* Better Emote Sizes */
+/* BETTER EMOTES */
+
+/* Emote Server List */
+
+#app-mount .emojiImage-1hZi2F {
+  height: 3rem;
+  width: 3rem;
+}
+
+/* Changes default Emote height/width without a message attached */
 
 #app-mount .emoji.jumboable {
-  /* Changes default Emote height/width without a message attached */
   height: 2.5rem;
   width: 2.5rem;
 }
@@ -413,14 +421,16 @@ I can't decide on a style/placement for this thing */
   font-size: 13px;
 }
 
+/* Category Name */
+
+#app-mount .clickable-18m--O {
+  cursor: default;
+}
+
 /* Category Collapse > */
 
 #app-mount .icon-WnO6o2 {
-  width: 14px;
-  height: 14px;
-  top: 4px;
   display: none;
-  /* Remove this is fo you want the > */
 }
 
 /* Dicord Friendslist Names + Friends Button */
@@ -672,6 +682,17 @@ I can't decide on a style/placement for this thing */
 
 .theme-dark .clickable-3rdHwn:hover .icon-22AiRD {
   color: #fff!important;
+}
+
+/* Titlebar Username(channel name) | Nickname(info) Dividier */
+#app-mount .divider-3FBTu8 {
+  display: none;
+}
+
+/* "upload avatar" icon */
+
+#app-mount .avatarUploaderIndicator-2G-aIZ {
+  display: none;
 }
 
 
