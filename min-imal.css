@@ -752,8 +752,8 @@ I can't decide on a style/placement for this thing */
 
 /* Server Settings Border */
 #app-mount .header-2o-2hj {
-    box-shadow: none;
-    -webkit-box-shadow: none;
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
 }
 
 
