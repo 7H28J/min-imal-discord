@@ -737,13 +737,23 @@ I can't decide on a style/placement for this thing */
     background-repeat: no-repeat;
     background-size: 240px;
     padding-bottom: 200px;
+
     max-width: 240px;
     min-width: 240px;
+    box-shadow: none;
+    -webkit-box-shadow: none;
 }
 
+/* Boosted Server Banner */
 #app-mount .bannerImage-1jOskm,
 #app-mount .bannerImage-1jOskm:after {
     background-image: none!important;
+}
+
+/* Server Settings Border */
+#app-mount .header-2o-2hj {
+    box-shadow: none;
+    -webkit-box-shadow: none;
 }
 
 
