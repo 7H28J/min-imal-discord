@@ -971,14 +971,31 @@ I can't decide on a style/placement for this thing */
 /* Discord Home Button */
 
 #app-mount .button-OhfaWu.selected-wSa2KV, #app-mount .button-OhfaWu.selected-wSa2KV {
+
     background: -webkit-linear-gradient(left, #45DDC0, lightgreen);
     color: #2f3136;
     opacity: 1;
+
 }
 
+/* Discord Home Button (unselected) */
 /*
 #app-mount .button-OhfaWu {
     background: -webkit-linear-gradient(left, #45DDC0, lightgreen);
     color: #2f3136;
     opacity: 0.5;
 }*/
+
+/* New Messages Notification */
+
+#app-mount .newMessagesBar-mujexs {
+  
+  background: -webkit-linear-gradient(left, #45DDC0, lightgreen);
+
+}
+
+#app-mount .newMessagesBar-mujexs button, #app-mount .newMessagesBar-mujexs button:last-child, #app-mount .newMessagesBar-mujexs button:last-child:hover {
+  
+  color: #000;
+  
+}
