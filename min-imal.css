@@ -754,6 +754,7 @@ I can't decide on a style/placement for this thing */
 #app-mount .header-2o-2hj {
     box-shadow: none !important;
     -webkit-box-shadow: none !important;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 
@@ -965,4 +966,19 @@ I can't decide on a style/placement for this thing */
     overflow: hidden;
     border-radius: 3px;
     padding-right: 8px;
+}*/
+
+/* Discord Home Button */
+
+#app-mount .button-OhfaWu.selected-wSa2KV, #app-mount .button-OhfaWu.selected-wSa2KV {
+    background: -webkit-linear-gradient(left, #45DDC0, lightgreen);
+    color: #2f3136;
+    opacity: 1;
+}
+
+/*
+#app-mount .button-OhfaWu {
+    background: -webkit-linear-gradient(left, #45DDC0, lightgreen);
+    color: #2f3136;
+    opacity: 0.5;
 }*/
