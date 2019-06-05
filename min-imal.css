@@ -734,10 +734,11 @@ I can't decide on a style/placement for this thing */
 
 #app-mount .container-2Rl01u {
     cursor: default;
-    background-image: linear-gradient(rgba(54, 57, 63, 0) 0%, rgb(47, 49, 54) 100%), url("https://imgur.com/qp6j2M4.gif")!important;
     background-repeat: no-repeat;
     background-size: 240px;
     padding-bottom: 200px;
+    max-width: 240px;
+    min-width: 240px;
 }
 
 #app-mount .bannerImage-1jOskm,
