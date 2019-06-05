@@ -14,10 +14,19 @@
 /* Make sure Live Editing is enabled */
 
 
+/* Custom Server Banner */
+/* edit url("https://imgur.com/qp6j2M4.gif") */
+/* Add whatever Gif/Image you want, should be a decent size but no bigger than 240 pixels */
+/* Known Bug = Servers with an existing banner have a weird gap between the banner and channels */
+
+#app-mount .container-2Rl01u {
+    background-image: linear-gradient(rgba(54, 57, 63, 0) 0%, rgb(47, 49, 54) 100%), url("https://imgur.com/qp6j2M4.gif")!important;
+}
 
 
 /* GRADIENT USERNAME */
 #app-mount .username-_4ZSMR  {
+  
   font-size: var(--min-font-size);
   font-weight: var(--font-weights)!important;
 
@@ -34,14 +43,47 @@
   background: -webkit-linear-gradient(left, #45DDC0, lightgreen);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+
 }
 
 /* GRADIENT SELECTED CHANNEL */
 /* Comment this all out if you prefer no Gradient */
 #app-mount .wrapper-1ucjTd.modeSelected-1zApJ_ .name-3_Dsmg {
-  background: -webkit-linear-gradient(left, #45DDC0, lightgreen);
+  
+  font-weight: var(--font-weights)!important;
+  text-transform: uppercase;
+  font-size: 14px;
+
+  background: -webkit-linear-gradient(left, white, lightgrey, grey);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+
+}
+
+/* GRADIENT MEMBERLIST */
+/* Comment this all out if you prefer no Gradient */
+#app-mount .username-1cB_5E {
+  /*
+  font-weight: var(--font-weights);
+  
+  background: -webkit-linear-gradient(left, #45DDC0, lightgreen)!important;
+  -webkit-background-clip: text!important;
+  -webkit-text-fill-color: transparent!important;
+  */
+
+}
+
+/* GRADIENT CATEGORY NAMES */
+/* Comment this all out if you prefer no Gradient */
+#app-mount .name-IbjUBS {
+
+  margin-left: -10px;
+  cursor: default;
+
+  background: -webkit-linear-gradient(left, #45DDC0, lightgreen)!important;
+  -webkit-background-clip: text!important;
+  -webkit-text-fill-color: transparent!important;
+
 }
 
 :root {
