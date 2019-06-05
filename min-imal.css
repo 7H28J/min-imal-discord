@@ -725,6 +725,27 @@ I can't decide on a style/placement for this thing */
 
 */
 
+
+/* Custom Server Banner */
+/* edit url("https://imgur.com/qp6j2M4.gif") */
+/* Add whatever Gif/Image you want, should be a decent size but no bigger than 240 pixels */
+
+/* Known Bug = Servers with an existing banner have a weird gap between the banner and channels */
+
+#app-mount .container-2Rl01u {
+    cursor: default;
+    background-image: linear-gradient(rgba(54, 57, 63, 0) 0%, rgb(47, 49, 54) 100%), url("https://imgur.com/qp6j2M4.gif")!important;
+    background-repeat: no-repeat;
+    background-size: 240px;
+    padding-bottom: 200px;
+}
+
+#app-mount .bannerImage-1jOskm,
+#app-mount .bannerImage-1jOskm:after {
+    background-image: none!important;
+}
+
+
 /* Bigger Emote Menu */
 
 /* slightly broken */
