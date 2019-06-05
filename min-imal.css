@@ -689,6 +689,11 @@ I can't decide on a style/placement for this thing */
   display: none;
 }
 
+/* Original Embed Bar Colour */
+
+#app-mount .embedPill-1Zntps {
+    background-color: #4f545c !important;
+}
 
 
 
