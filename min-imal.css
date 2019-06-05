@@ -125,12 +125,6 @@
   display: none;
 }
 
-/* Removes the 'Send message to @user' placeholder for chat input */
-
-#app-mount .textArea-2Spzkt::-webkit-input-placeholder {
-  color: transparent;
-}
-
 /* Removes Search Placeholder */
 
 #app-mount .search-2oPWTC .DraftEditor-root .public-DraftEditorPlaceholder-root {
@@ -997,5 +991,5 @@ I can't decide on a style/placement for this thing */
 #app-mount .newMessagesBar-mujexs button, #app-mount .newMessagesBar-mujexs button:last-child, #app-mount .newMessagesBar-mujexs button:last-child:hover {
   
   color: #000;
-  
+
 }
